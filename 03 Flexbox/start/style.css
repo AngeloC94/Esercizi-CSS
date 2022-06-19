@@ -1,0 +1,45 @@
+.container {
+    border: black 1px solid;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    min-height: 100%;
+    width: 200px;
+
+
+
+}
+
+.sidebartop {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.avatarusername {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+
+
+
+}
+
+a {
+    margin: 5px;
+  padding: 5px;
+    color: #2b2b2b;
+}
+
+a:hover {
+    color: #2b2bb2;
+    transition: 0.3;
+}

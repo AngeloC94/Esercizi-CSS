@@ -1,0 +1,16 @@
+:root {
+    --std-background-color: black; 
+    --std-ball-size: 100px;
+    --std-ball-color: orange;
+}
+
+body {
+    background-color: var(--std-background-color);
+}
+
+.ball {
+    width: var(--std-ball-size);
+    height: var(--std-ball-size);
+    background-color: var(--std-ball-color);
+    border-radius: calc(var(--std-ball-size) / 2);
+}

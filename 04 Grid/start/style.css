@@ -1,0 +1,167 @@
+:root {
+    --std-background-color-operations: rgb(187, 209, 223);
+    --std-background-color-numbers: rgb(233, 241, 247);
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px;
+    grid-template-areas: "header header header header"
+        "addizione sottrazione moltiplicazione divisione"
+        "sette otto nove uguale"
+        "quattro cinque sei uguale"
+        "uno due tre uguale"
+        "zeroo punto ac uguale";
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+div {
+    text-align: center;
+    border: 1px rgb(34, 33, 33) solid;
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(28, 44, 44);
+    color: white;
+    text-align: right;
+    padding: 5px;
+    font-size: larger;    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.addizione {
+    grid-area: addizione;
+    background-color: var(--std-background-color-operations);
+    padding: 5px;
+
+}
+
+.sottrazione {
+    grid-area: sottrazione;
+    background-color: var(--std-background-color-operations);
+    padding: 5px;
+
+}
+
+.moltiplicazione {
+    grid-area: moltiplicazione;
+    background-color: var(--std-background-color-operations);
+    padding: 5px;
+
+}
+
+.divisione {
+    grid-area: divisione;
+    background-color: var(--std-background-color-operations);
+    padding: 5px;
+
+}
+
+.sette {
+    grid-area: sette;
+    background-color: var(--std-background-color-numbers);
+    padding: 5px;
+
+}
+
+.otto {
+    grid-area: otto;
+    background-color: var(--std-background-color-numbers);
+    padding: 5px;
+
+}
+
+.nove {
+    grid-area: nove;
+    background-color: var(--std-background-color-numbers);
+    padding: 5px;
+
+}
+
+.quattro {
+    grid-area: quattro;
+    background-color: var(--std-background-color-numbers);
+    padding: 5px;
+
+}
+
+.cinque {
+    grid-area: cinque;
+    background-color: var(--std-background-color-numbers);
+    padding: 5px;
+
+}
+
+.sei {
+    grid-area: sei;
+    background-color: var(--std-background-color-numbers);
+    padding: 5px;
+
+}
+
+.sette {
+    grid-area: sette;
+    background-color: var(--std-background-color-numbers);
+    padding: 5px;
+
+}
+
+.uno {
+    grid-area: uno;
+    background-color: var(--std-background-color-numbers);
+    padding: 5px;
+
+}
+
+.due {
+    grid-area: due;
+    background-color: var(--std-background-color-numbers);
+    padding: 5px;
+
+}
+
+.tre {
+    grid-area: tre;
+    background-color: var(--std-background-color-numbers);
+    padding: 5px;
+
+}
+
+.zeroo {
+    grid-area: zeroo;
+    background-color: var(--std-background-color-numbers);
+    padding: 5px;
+    border-bottom-left-radius: 15px;
+
+}
+
+.ac {
+    grid-area: ac;
+    background-color: var(--std-background-color-numbers);
+    padding: 5px;
+
+}
+
+
+.punto {
+    grid-area: punto;
+    background-color: var(--std-background-color-numbers);
+    padding: 5px;
+
+}
+
+.uguale {
+    grid-area: uguale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 92, 92);
+    padding: 5px;
+    border-bottom-right-radius: 15px;
+
+}
